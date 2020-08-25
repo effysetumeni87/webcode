@@ -2,14 +2,14 @@
    <div class="window-height bg-grey-1 ">
     <q-card flat>
       <div class="row">
-        <q-img    style="height:92vh;" src="statics/banner14.jpg"  >
+        <q-img    style="height:92vh;" src="statics/banner4.jpg"  >
            <div class="absolute-full transparent  flex  flex-center  ">
          <div class="row text-center">
            <div class=" q-pt-xl ">
              <div class="  text-weight-bold text-h3 text-blue-grey-10">
-             The Urology Practice
+             <q-img      src="statics/outline11.png" />
              </div>
-               <my-divider />
+               <!-- <my-divider /> -->
               <div class="q-ma-lg text-weight-regular text-h6 text-blue-grey-10">
               Providing  Quality Health Care Services 
              </div>
@@ -26,10 +26,10 @@
 </template>
 
 <script>
-import myDivider from "../myDivider"
+// import myDivider from "../myDivider"
 export default {
  components: {
-     myDivider
+    //  myDivider
  }
 }
 </script>
